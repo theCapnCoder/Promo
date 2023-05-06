@@ -1,5 +1,12 @@
+import Header from "./blocks/Header";
+import "./main.scss"
+
 function App() {
-  return <div className="text-green-500 text-3xl">Promo</div>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
 
 export default App;
