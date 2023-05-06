@@ -1,0 +1,37 @@
+@use "../../sass/abstracts" as *;
+
+.button {
+  padding: 15px 30px;
+  border-radius: 81px;
+  border: none;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  background: radial-gradient(
+    87.68% 100% at 50.19% 100%,
+    #0084ff 0%,
+    #5cb0ff 100%
+  );
+  &:hover {
+    background: radial-gradient(
+      87.68% 100% at 50.19% 100%,
+      #006fd6 0%,
+      #0084ff 100%
+    );
+    box-shadow: 0px 5px 10px rgba(0, 48, 92, 0.1);
+  }
+  &:active {
+    background: radial-gradient(
+      87.68% 100% at 50.19% 100%,
+      #005aad 0%,
+      #006fd6 100%
+    );
+  }
+  &:disabled {
+    color: #b7dcff;
+    background: #e5f2ff;
+  }
+}
