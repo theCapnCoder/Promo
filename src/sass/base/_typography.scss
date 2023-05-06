@@ -1,0 +1,46 @@
+@use "../abstracts" as *;
+
+h2 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #263238;
+  @include breakpoint(sm) {
+    font-size: 36px;
+    line-height: 43px;
+  }
+}
+
+h3 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #263238;
+}
+
+p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #263238;
+}
+
+.test {
+  @include breakpoint(sm) {
+  }
+  @include breakpoint(md) {
+  }
+  @include breakpoint(lg) {
+  }
+  @include breakpoint(xl) {
+  }
+}

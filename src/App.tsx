@@ -1,5 +1,11 @@
+import Main from "./blocks/Main";
+
 function App() {
-  return <div className="text-green-500 text-3xl">Promo</div>;
+  return (
+    <>
+      <Main />
+    </>
+  );
 }
 
 export default App;

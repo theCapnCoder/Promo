@@ -1,0 +1,28 @@
+@use "../../sass/abstracts" as *;
+
+.main {
+  h2 {
+    margin-bottom: 20px;
+
+    @include breakpoint(lg) {
+      margin-bottom: 30px;
+    }
+    
+    span {
+      font-weight: 500;
+    }
+  }
+
+  button {
+    margin-bottom: 40px;
+
+    @include breakpoint(xl) {
+      margin-bottom: 60px;
+    }
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+  }
+}
