@@ -5,16 +5,9 @@ import card3 from "../../assets/img/main_card_3.png";
 
 import styles from "./main.module.scss";
 import MainCard from "../../components/MainCard";
+import { Card } from "../../types";
 
-type Card = {
-  id: number;
-  title: string;
-  text: string;
-  src: string;
-  alt: string;
-};
-
-const cardItems: Array<Card> = [
+const cards: Array<Card> = [
   {
     id: 0,
     title: "Вы находите помещение",
@@ -52,7 +45,7 @@ export const Main = () => {
           <Button />
         </div>
 
-        {cardItems.map((card: Card) => {
+        {cards.map((card: Card) => {
           return <MainCard key={card.id} {...card} />;
         })}
       </div>
