@@ -1,0 +1,22 @@
+.free {
+  h2 {
+    margin-bottom: 40px;
+  }
+  span {
+    font-weight: 500;
+    margin-bottom: 40px;
+    position: relative;
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      bottom: -5px;
+      right: 55px;
+      width: 149px;
+      height: 12px;
+      background: url("../../assets/img/under_line.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
+}
