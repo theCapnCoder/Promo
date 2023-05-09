@@ -6,7 +6,7 @@ import { Card } from "../../types";
 
 type Props = Omit<Card, "id"> & {
   typeMd?: boolean;
-  type: "offer" | "free" | "main";
+  type: "offer" | "free" | "main" | "bonus";
 };
 
 export const MainCard: FC<Props> = ({

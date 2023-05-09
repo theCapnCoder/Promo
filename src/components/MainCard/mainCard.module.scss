@@ -72,4 +72,18 @@
       }
     }
   }
+
+  &.bonus {
+    margin-bottom: 40px;
+    box-shadow: none;
+    padding: 0;
+
+    img {
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      margin-bottom: 15px;
+    }
+  }
 }
