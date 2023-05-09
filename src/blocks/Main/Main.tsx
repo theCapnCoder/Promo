@@ -33,22 +33,20 @@ const cards: Array<Card> = [
 
 export const Main = () => {
   return (
-    <div className="container">
-      <div className={styles.main}>
-        <h2>
-          <span>Получи скидку 50% </span>
-          на первый месяц аренды
-          <span> или бесплатный переезд!</span>
-        </h2>
+    <div className={styles.main}>
+      <h2>
+        <span>Получи скидку 50% </span>
+        на первый месяц аренды
+        <span> или бесплатный переезд!</span>
+      </h2>
 
-        <div className={styles.center}>
-          <Button />
-        </div>
-
-        {cards.map((card: Card) => {
-          return <MainCard key={card.id} {...card} />;
-        })}
+      <div className={styles.center}>
+        <Button />
       </div>
+
+      {cards.map((card: Card) => {
+        return <MainCard key={card.id} {...card} type="main" />;
+      })}
     </div>
   );
 };
