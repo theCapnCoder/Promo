@@ -1,4 +1,5 @@
 import Bonus from "./blocks/Bonus";
+import Discount from "./blocks/Discount";
 import Free from "./blocks/Free";
 import Main from "./blocks/Main";
 import Offer from "./blocks/Offer";
@@ -10,6 +11,7 @@ function App() {
       <Free />
       <Offer />
       <Bonus />
+      <Discount />
     </div>
   );
 }
