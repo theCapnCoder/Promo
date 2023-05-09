@@ -41,17 +41,15 @@ const cards: Array<Card> = [
 
 export const Free = () => {
   return (
-    <div className="container">
-      <div className={styles.free}>
-        <h2>
-          Для вас это абсолютно
-          <span> бесплатно!</span>
-        </h2>
-        <div className={styles.under}></div>
-        {cards.map((card: Card) => (
-          <MainCard key={card.id} {...card} typeMd />
-        ))}
-      </div>
+    <div className={styles.free}>
+      <h2>
+        Для вас это абсолютно
+        <span> бесплатно!</span>
+      </h2>
+      <div className={styles.under}></div>
+      {cards.map((card: Card) => (
+        <MainCard key={card.id} {...card} typeMd type="free"/>
+      ))}
     </div>
   );
 };
