@@ -66,6 +66,21 @@
         height: 170px;
       }
     }
+
+    @include breakpoint(xl){
+      max-width: none;
+      height: auto;
+      padding-bottom: 60px;
+
+      .imgWrapper {
+        width: 230px;
+        height: 230px;
+      }
+
+      p {
+        max-width: 310px;
+      }
+    }
   }
 
   &.free {

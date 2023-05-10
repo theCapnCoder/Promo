@@ -40,4 +40,21 @@
       gap: 20px;
     }
   }
+
+  @include breakpoint(xl) {
+    margin-bottom: 250px;
+    
+    h2 {
+      margin: 0 auto;
+      max-width: 700px;
+      padding-right: 10px;
+      margin-bottom: 30px;
+    }
+
+    .cards {
+      margin: 0 auto;
+      max-width: 1170px;
+      justify-content: space-between;
+    }
+  }
 }
