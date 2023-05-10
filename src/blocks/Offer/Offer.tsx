@@ -31,9 +31,11 @@ export const Offer = () => {
         <span> предложение </span>
         актуально<span> для:</span>
       </h2>
-      {cards.map((card: Card) => (
-        <MainCard key={card.id} {...card} type="offer" />
-      ))}
+      <div className={styles.cards}>
+        {cards.map((card: Card) => (
+          <MainCard key={card.id} {...card} type="offer" />
+        ))}
+      </div>
     </div>
   );
 };
