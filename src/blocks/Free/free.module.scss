@@ -1,3 +1,5 @@
+@use "../../sass/abstracts/" as *;
+
 .free {
   margin-bottom: 100px;
 
@@ -19,6 +21,21 @@
       background: url("../../assets/img/under_line.svg");
       background-size: contain;
       background-repeat: no-repeat;
+
+      @include breakpoint(md) {
+        bottom: -8px;
+        right: 95px;
+        width: 205px;
+        height: 15px;
+      }
+    }
+  }
+
+  .card {
+    @include breakpoint(md) {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
     }
   }
 }
