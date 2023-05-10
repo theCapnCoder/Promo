@@ -17,7 +17,7 @@
     padding: 30px 30px 60px;
   }
   @include breakpoint(md) {
-    padding: 30px;
+    padding: 30px 30px 60px;
   }
   @include breakpoint(lg) {
     padding: 30px 30px 60px;
@@ -25,9 +25,8 @@
 
   img {
     margin-bottom: 5px;
-    &.typeMd {
-      margin-bottom: 15px;
-    }
+    width: 100%;
+    height: 100%;
 
     @include breakpoint(md) {
       margin-bottom: 15px;
@@ -36,26 +35,89 @@
 
   h3 {
     margin-bottom: 5px;
-    &.typeMd {
-      margin-bottom: 15px;
-    }
 
     @include breakpoint(md) {
       margin-bottom: 15px;
     }
   }
 
-  p {
-    &.typeMd {
-      max-width: 190px;
+  &.main {
+    min-height: 428px;
+
+    @include breakpoint(md) {
+      img {
+        margin-bottom: 15px;
+      }
+
+      p {
+        max-width: 305px;
+      }
+    }
+
+    @include breakpoint(lg) {
+      margin-bottom: 0;
+      max-width: 229px;
+      height: 416px;
+      min-height: auto;
+
+      .imgWrapper {
+        margin-bottom: 15px;
+        width: 170px;
+        height: 170px;
+      }
+    }
+
+    @include breakpoint(xl) {
+      max-width: none;
+      height: auto;
+      padding-bottom: 60px;
+
+      .imgWrapper {
+        width: 230px;
+        height: 230px;
+      }
+
+      p {
+        max-width: 310px;
+      }
+    }
+  }
+
+  &.free {
+    @include breakpoint(md) {
+      max-width: 210px;
+      margin-bottom: 0;
+      padding: 30px 10px;
+    }
+
+    @include breakpoint(lg) {
+      min-width: 354px;
+      padding-bottom: 60px;
+
+      .imgWrapper {
+        margin-bottom: 15px;
+        width: 130px;
+        height: 130px;
+      }
+
+      p {
+        max-width: 60%;
+        margin: 0 auto;
+      }
+    }
+
+    @include breakpoint(xl) {
+      min-width: auto;
+      max-width: 270px;
+      padding-bottom: 40px;
+
+      p {
+        max-width: 70%;
+      }
     }
   }
 
   &.offer {
-    &:nth-child(0) {
-      color: red;
-    }
-
     img {
       margin-bottom: 20px;
     }
@@ -63,12 +125,67 @@
     h3 {
       margin-bottom: 15px;
     }
+
+    @include breakpoint(md) {
+      padding-bottom: 30px;
+    }
+
+    @include breakpoint(lg) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+      display: flex;
+      flex-direction: row;
+      gap: 40px;
+      justify-content: center;
+      margin-right: 15px;
+      padding-left: 20px;
+
+      .imgWrapper {
+        width: 188px;
+        height: 188px;
+        flex-shrink: 0;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+
+      h3,
+      p {
+        max-width: 240px;
+        text-align: left;
+      }
+    }
+
+    @include breakpoint(xl){
+      margin: 0;
+      width: 50%;
+      padding: 60px;
+      gap: 0;
+      justify-content: space-between;
+    }
   }
 
   &:nth-of-type(2) {
     &.offer {
+      flex-direction: row-reverse;
+      margin-left: 10px;
+
       img {
         margin-bottom: 29px;
+      }
+
+      p {
+        max-width: 250px;
+      }
+    }
+  }
+
+  &:nth-of-type(1) {
+    &.offer {
+      @include breakpoint(xl) {
+        flex-direction: row-reverse;
       }
     }
   }
@@ -84,6 +201,73 @@
 
     h3 {
       margin-bottom: 15px;
+    }
+
+    @include breakpoint(md) {
+      p {
+        width: 75%;
+      }
+    }
+
+    @include breakpoint(lg) {
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 40px;
+      margin-left: 70px;
+
+      h3,
+      p {
+        text-align: left;
+      }
+
+      .imgWrapper {
+        width: 240px;
+        height: 240px;
+        flex-shrink: 0;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+
+      p,
+      h3 {
+        max-width: 325px;
+      }
+    }
+
+    &:nth-of-type(even) {
+      &.bonus {
+        flex-direction: row-reverse;
+        margin-left: 0;
+        h3,
+        p {
+          max-width: 255px;
+        }
+      }
+    }
+
+    &:nth-of-type(3) {
+      &.bonus {
+        margin-left: 75px;
+
+        h3,
+        p {
+          max-width: 332px;
+        }
+      }
+    }
+
+    &:nth-of-type(4) {
+      &.bonus {
+        h3,
+        p {
+          max-width: 260px;
+        }
+      }
     }
   }
 }

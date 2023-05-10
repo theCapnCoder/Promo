@@ -1,5 +1,11 @@
+@use "../../sass/abstracts/" as *;
+
 .free {
   margin-bottom: 100px;
+
+  @include breakpoint(lg) {
+    margin-bottom: 150px;
+  }
 
   h2 {
     margin-bottom: 40px;
@@ -19,6 +25,40 @@
       background: url("../../assets/img/under_line.svg");
       background-size: contain;
       background-repeat: no-repeat;
+
+      @include breakpoint(md) {
+        bottom: -8px;
+        right: 95px;
+        width: 205px;
+        height: 15px;
+      }
+
+      @include breakpoint(lg) {
+        bottom: -9px;
+        right: -8px;
+      }
+    }
+  }
+
+  .card {
+    @include breakpoint(md) {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+  }
+
+  @include breakpoint(xl) {
+    margin-bottom: 250px;
+    
+    h2 {
+      margin-bottom: 60px;
+    }
+
+    .card {
+      justify-content: space-between;
+      margin: 0 auto;
+      max-width: 1170px;
     }
   }
 }

@@ -1,9 +1,17 @@
+@use '../../sass/abstracts/' as *;
+
 .bonus {
+  margin-bottom: 100px;
+
   h2 {
     margin-bottom: 40px;
   }
   
   span {
     font-weight: 500;
+  }
+
+  @include breakpoint(lg) {
+    margin-bottom: 150px;
   }
 }

@@ -1,11 +1,33 @@
+@use "../../sass/abstracts/" as *;
+
 .offer {
   margin-bottom: 100px;
-  
+
   h2 {
     margin-bottom: 40px;
   }
 
   span {
     font-weight: 500;
+  }
+
+  @include breakpoint(lg) {
+    margin-bottom: 150px;
+  }
+
+  @include breakpoint(xl) {
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 250px;
+
+    h2 {
+      margin-bottom: 60px;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
   }
 }
