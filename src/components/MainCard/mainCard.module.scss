@@ -17,7 +17,7 @@
     padding: 30px 30px 60px;
   }
   @include breakpoint(md) {
-    padding: 30px;
+    padding: 30px 30px 60px;
   }
   @include breakpoint(lg) {
     padding: 30px 30px 60px;
@@ -25,9 +25,6 @@
 
   img {
     margin-bottom: 5px;
-    &.typeMd {
-      margin-bottom: 15px;
-    }
 
     @include breakpoint(md) {
       margin-bottom: 15px;
@@ -36,18 +33,31 @@
 
   h3 {
     margin-bottom: 5px;
-    &.typeMd {
-      margin-bottom: 15px;
-    }
 
     @include breakpoint(md) {
       margin-bottom: 15px;
     }
   }
 
-  p {
-    &.typeMd {
-      max-width: 190px;
+  &.main {
+    min-height: 428px;
+
+    @include breakpoint(md){
+      img{
+        margin-bottom: 15px;
+      }
+
+      p {
+        max-width: 305px;
+      }
+    }
+  }
+
+  &.free {
+    @include breakpoint(md){
+      max-width: 210px;
+      margin-bottom: 0;
+      padding: 30px 10px;
     }
   }
 
