@@ -6,7 +6,6 @@ import cards from "./cards";
 
 import styles from "./main.module.scss";
 
-
 export const Main = () => {
   return (
     <div className={styles.main}>
@@ -20,9 +19,11 @@ export const Main = () => {
         <Button />
       </div>
 
-      {cards.map((card: Card) => {
-        return <MainCard key={card.id} {...card} type="main" />;
-      })}
+      <div className={styles.cards}>
+        {cards.map((card: Card) => {
+          return <MainCard key={card.id} {...card} type="main" />;
+        })}
+      </div>
     </div>
   );
 };

@@ -2,14 +2,14 @@
 
 .main {
   margin-bottom: 100px;
-  
+
   h2 {
     margin-bottom: 20px;
 
     @include breakpoint(lg) {
       margin-bottom: 30px;
     }
-    
+
     span {
       font-weight: 500;
     }
@@ -26,5 +26,16 @@
   .center {
     display: flex;
     justify-content: center;
+  }
+
+  @include breakpoint(lg) {
+    h2 {
+      margin-bottom: 20px;
+    }
+    
+    .cards {
+      display: flex;
+      gap: 20px;
+    }
   }
 }

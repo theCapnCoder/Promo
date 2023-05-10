@@ -8,16 +8,12 @@ type Props = Omit<Card, "id"> & {
   type: "main" | "free" | "offer" | "bonus";
 };
 
-export const MainCard: FC<Props> = ({
-  title,
-  text,
-  src,
-  alt,
-  type,
-}) => {
+export const MainCard: FC<Props> = ({ title, text, src, alt, type }) => {
   return (
     <div className={classNames(styles.card, styles[type])}>
-      <img src={src} alt={alt} />
+      <div className={styles.imgWrapper}>
+        <img src={src} alt={alt} />
+      </div>
       <h3>{title}</h3>
       <p>{text}</p>
     </div>
