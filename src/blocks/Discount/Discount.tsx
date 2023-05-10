@@ -7,9 +7,13 @@ import Button from "../../components/Button";
 export const Discount = () => {
   return (
     <div className={styles.discount}>
-      <img src={discount} alt="discount" />
+      <div className={styles.imgWrapper}>
+        <img src={discount} alt="discount" />
+      </div>
       <h2>
-        <span>Получите скидку </span>
+        <span>Получите </span>
+        <span className={styles.extraText}>крутую</span>
+        <span> скидку </span>
         до 50%
       </h2>
       <h3>
