@@ -3,6 +3,10 @@
 .free {
   margin-bottom: 100px;
 
+  @include breakpoint(lg) {
+    margin-bottom: 150px;
+  }
+
   h2 {
     margin-bottom: 40px;
   }
@@ -27,6 +31,11 @@
         right: 95px;
         width: 205px;
         height: 15px;
+      }
+
+      @include breakpoint(lg) {
+        bottom: -9px;
+        right: -8px;
       }
     }
   }

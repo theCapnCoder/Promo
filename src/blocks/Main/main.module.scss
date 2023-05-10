@@ -29,10 +29,12 @@
   }
 
   @include breakpoint(lg) {
+    margin-bottom: 150px;
+
     h2 {
       margin-bottom: 20px;
     }
-    
+
     .cards {
       display: flex;
       gap: 20px;
