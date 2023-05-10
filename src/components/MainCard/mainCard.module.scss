@@ -67,7 +67,7 @@
       }
     }
 
-    @include breakpoint(xl){
+    @include breakpoint(xl) {
       max-width: none;
       height: auto;
       padding-bottom: 60px;
@@ -103,6 +103,16 @@
       p {
         max-width: 60%;
         margin: 0 auto;
+      }
+    }
+
+    @include breakpoint(xl) {
+      min-width: auto;
+      max-width: 270px;
+      padding-bottom: 40px;
+
+      p {
+        max-width: 70%;
       }
     }
   }

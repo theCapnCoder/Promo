@@ -47,4 +47,18 @@
       gap: 20px;
     }
   }
+
+  @include breakpoint(xl) {
+    margin-bottom: 250px;
+    
+    h2 {
+      margin-bottom: 60px;
+    }
+
+    .card {
+      justify-content: space-between;
+      margin: 0 auto;
+      max-width: 1170px;
+    }
+  }
 }
