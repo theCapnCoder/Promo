@@ -1,13 +1,44 @@
 {
   "files": {
-    "main.css": "/static/css/main.14640eec.css",
-    "main.js": "/static/js/main.4733429d.js",
+    "main.css": "/static/css/main.9bb63df9.css",
+    "main.js": "/static/js/main.eca52ceb.js",
+    "static/media/md4.jpg": "/static/media/md4.2f695ab9bd8812a3e209.jpg",
+    "static/media/md3.jpg": "/static/media/md3.17acb2720f818ab3caa4.jpg",
+    "static/media/md5.jpg": "/static/media/md5.7dd788a8df3745b28a2a.jpg",
+    "static/media/md1.jpg": "/static/media/md1.bfd3bd8b7939c5a00a30.jpg",
+    "static/media/md6.jpg": "/static/media/md6.fc4abbe53c0ae4b25175.jpg",
+    "static/media/md7.jpg": "/static/media/md7.89c604ff6994ad3af6c0.jpg",
+    "static/media/md2.jpg": "/static/media/md2.3e2c0e4543a1e8cec1b6.jpg",
+    "static/media/sm7.jpg": "/static/media/sm7.ca7cd10a763d967aa617.jpg",
+    "static/media/sm2.jpg": "/static/media/sm2.c57d2d2d62c92c713e1f.jpg",
+    "static/media/sm8.jpg": "/static/media/sm8.952fd98f8ffef81072d0.jpg",
+    "static/media/sm5.jpg": "/static/media/sm5.73724974ccf66bf70760.jpg",
+    "static/media/sm1.jpg": "/static/media/sm1.50b9e18cb3e25c14952e.jpg",
+    "static/media/sm6.jpg": "/static/media/sm6.4da6bd0bfc8d5be3fc38.jpg",
+    "static/media/sm9.jpg": "/static/media/sm9.cd751745b5f323e8aef2.jpg",
+    "static/media/sm4.jpg": "/static/media/sm4.5b1f243c8629bb9f2b00.jpg",
+    "static/media/sm3.jpg": "/static/media/sm3.0aec87fd7d2ca1651d84.jpg",
+    "static/media/main_card_2.png": "/static/media/main_card_2.3f5a336379a282080c34.png",
+    "static/media/bonus_card_3.png": "/static/media/bonus_card_3.7a215f50135d729efcac.png",
+    "static/media/discount.png": "/static/media/discount.5729c902f0542686b0c4.png",
+    "static/media/bonus_card_4.png": "/static/media/bonus_card_4.f6952d15d21454b45a24.png",
+    "static/media/bonus_card_1.png": "/static/media/bonus_card_1.788bfddd59b430c759a3.png",
+    "static/media/main_card_3.png": "/static/media/main_card_3.0a8a9f44170c7ec2e56a.png",
+    "static/media/bonus_card_2.png": "/static/media/bonus_card_2.fb9a4cb4bc88c1a16781.png",
+    "static/media/offer_2.png": "/static/media/offer_2.f2c4a410ba755b0fd7dc.png",
+    "static/media/offer_1.png": "/static/media/offer_1.c6a65e1eaff335e25068.png",
+    "static/media/main_card_1.png": "/static/media/main_card_1.333e057c4782a197a6c5.png",
+    "static/media/line_xl.svg": "/static/media/line_xl.057446c5958002181be8.svg",
+    "static/media/line_lg.svg": "/static/media/line_lg.b3c5878589553e96ebab.svg",
+    "static/media/line_md.svg": "/static/media/line_md.f6398291f879b73ae92b.svg",
+    "static/media/line_sm.svg": "/static/media/line_sm.d99a373163c768217085.svg",
     "index.html": "/index.html",
-    "main.14640eec.css.map": "/static/css/main.14640eec.css.map",
-    "main.4733429d.js.map": "/static/js/main.4733429d.js.map"
+    "static/media/under_line.svg": "/static/media/under_line.c024d9fe952952757c51.svg",
+    "main.9bb63df9.css.map": "/static/css/main.9bb63df9.css.map",
+    "main.eca52ceb.js.map": "/static/js/main.eca52ceb.js.map"
   },
   "entrypoints": [
-    "static/css/main.14640eec.css",
-    "static/js/main.4733429d.js"
+    "static/css/main.9bb63df9.css",
+    "static/js/main.eca52ceb.js"
   ]
 }
