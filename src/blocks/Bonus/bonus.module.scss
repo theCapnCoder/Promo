@@ -16,10 +16,12 @@
   }
 
   @include breakpoint(xl) {
+    margin-bottom: 250px;
+
     h2 {
       margin-bottom: 66px;
     }
-    
+
     .cards {
       margin: 0 auto;
       max-width: 1170px;
