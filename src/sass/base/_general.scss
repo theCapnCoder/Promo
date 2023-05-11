@@ -3,4 +3,17 @@
 .container {
   margin: 0 auto;
   padding: 20px;
+  max-width: 320px;
+
+  @include breakpoint(md) {
+    max-width: 480px;
+  }
+
+  @include breakpoint(lg) {
+    max-width: 768px;
+  }
+
+  @include breakpoint(xl) {
+    max-width: 100%;
+  }
 }
