@@ -30,10 +30,6 @@
   img {
     width: 100%;
     height: 100%;
-
-    @include breakpoint(md) {
-      margin-bottom: 15px;
-    }
   }
 
   h3 {
@@ -47,8 +43,9 @@
   &.main {
     @include breakpoint(md) {
       min-height: 428px;
-      img {
-        margin-bottom: 15px;
+
+      .imgWrapper {
+        margin-bottom: 10px;
       }
 
       p {
@@ -217,7 +214,8 @@
 
     p {
       @include breakpoint(md) {
-        width: 75%;
+        width: 100%;
+        max-width: 300px;
       }
 
       @include breakpoint(xl) {
