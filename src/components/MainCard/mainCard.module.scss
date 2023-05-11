@@ -158,7 +158,7 @@
       }
     }
 
-    @include breakpoint(xl){
+    @include breakpoint(xl) {
       margin: 0;
       width: 50%;
       padding: 60px;
@@ -203,9 +203,13 @@
       margin-bottom: 15px;
     }
 
-    @include breakpoint(md) {
-      p {
+    p {
+      @include breakpoint(md) {
         width: 75%;
+      }
+
+      @include breakpoint(xl) {
+        width: 100%;
       }
     }
 
@@ -215,6 +219,11 @@
       flex-direction: row;
       justify-content: center;
       gap: 40px;
+
+      @include breakpoint(xl) {
+        gap: 30px;
+      }
+
       margin-left: 70px;
 
       h3,
@@ -237,10 +246,8 @@
       h3 {
         max-width: 325px;
       }
-    }
 
-    &:nth-of-type(even) {
-      &.bonus {
+      &:nth-of-type(even) {
         flex-direction: row-reverse;
         margin-left: 0;
         h3,
@@ -248,25 +255,38 @@
           max-width: 255px;
         }
       }
-    }
 
-    &:nth-of-type(3) {
-      &.bonus {
+      &:nth-of-type(3) {
         margin-left: 75px;
+
+        @include breakpoint(lg) {
+          margin-left: 0;
+        }
 
         h3,
         p {
           max-width: 332px;
         }
       }
-    }
 
-    &:nth-of-type(4) {
-      &.bonus {
+      &:nth-of-type(4) {
         h3,
         p {
           max-width: 260px;
         }
+      }
+    }
+
+    @include breakpoint(xl) {
+      margin: 0;
+      max-width: 525px;
+
+      &:nth-of-type(even) {
+        flex-direction: row;
+      }
+
+      .card {
+        background: green;
       }
     }
   }

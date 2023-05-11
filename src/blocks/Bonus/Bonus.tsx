@@ -13,9 +13,11 @@ export const Bonus = () => {
         по вашему желанию
         <span> мы:</span>
       </h2>
-      {cards.map((card: Card) => (
-        <MainCard key={card.id} {...card} type="bonus" />
-      ))}
+      <div className={styles.cards}>
+        {cards.map((card: Card) => (
+          <MainCard key={card.id} {...card} type="bonus" />
+        ))}
+      </div>
     </div>
   );
 };

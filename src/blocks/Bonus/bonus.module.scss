@@ -1,4 +1,4 @@
-@use '../../sass/abstracts/' as *;
+@use "../../sass/abstracts/" as *;
 
 .bonus {
   margin-bottom: 100px;
@@ -6,12 +6,27 @@
   h2 {
     margin-bottom: 40px;
   }
-  
+
   span {
     font-weight: 500;
   }
 
   @include breakpoint(lg) {
     margin-bottom: 150px;
+  }
+
+  @include breakpoint(xl) {
+    h2 {
+      margin-bottom: 66px;
+    }
+    
+    .cards {
+      margin: 0 auto;
+      max-width: 1170px;
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 90px;
+      column-gap: 120px;
+    }
   }
 }
