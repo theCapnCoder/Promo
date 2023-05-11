@@ -14,7 +14,7 @@ export const MainCard: FC<Props> = ({ title, text, src, alt, type }) => {
       <div className={styles.imgWrapper}>
         <img src={src} alt={alt} />
       </div>
-      <div>
+      <div className={styles.infoWrapper}>
         <h3>{title}</h3>
         <p>{text}</p>
       </div>

@@ -11,7 +11,7 @@ export const Discount = () => {
         <img src={discount} alt="discount" />
       </div>
 
-      <div className={styles.textBlock}>
+      <div className={styles.infoWrapper}>
         <h2>
           <span>Получите </span>
           <span className={styles.extraText}>крутую</span>
