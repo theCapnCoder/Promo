@@ -23,8 +23,11 @@
     padding: 30px 30px 60px;
   }
 
+  .imgWrapper {
+    margin-bottom: 1px;
+  }
+
   img {
-    margin-bottom: 5px;
     width: 100%;
     height: 100%;
 
@@ -42,9 +45,8 @@
   }
 
   &.main {
-    min-height: 428px;
-
     @include breakpoint(md) {
+      min-height: 428px;
       img {
         margin-bottom: 15px;
       }
@@ -84,6 +86,16 @@
   }
 
   &.free {
+    padding: 30px;
+
+    .imgWrapper {
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      margin-bottom: 15px;
+    }
+
     @include breakpoint(md) {
       max-width: 210px;
       margin-bottom: 0;
@@ -156,6 +168,21 @@
         max-width: 240px;
         text-align: left;
       }
+
+      &:nth-of-type(2) {
+        &.offer {
+          flex-direction: row-reverse;
+          margin-left: 10px;
+
+          img {
+            margin-bottom: 29px;
+          }
+
+          p {
+            max-width: 250px;
+          }
+        }
+      }
     }
 
     @include breakpoint(xl) {
@@ -164,21 +191,6 @@
       padding: 60px;
       gap: 0;
       justify-content: space-between;
-    }
-  }
-
-  &:nth-of-type(2) {
-    &.offer {
-      flex-direction: row-reverse;
-      margin-left: 10px;
-
-      img {
-        margin-bottom: 29px;
-      }
-
-      p {
-        max-width: 250px;
-      }
     }
   }
 
@@ -195,8 +207,8 @@
     box-shadow: none;
     padding: 0;
 
-    img {
-      margin-bottom: 10px;
+    .imgWrapper{
+      margin-bottom: 7px;
     }
 
     h3 {
