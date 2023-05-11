@@ -3,6 +3,7 @@ import Discount from "./blocks/Discount";
 import Free from "./blocks/Free";
 import Main from "./blocks/Main";
 import Offer from "./blocks/Offer";
+import Documentation from "./components/Documentation";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Offer />
       <Bonus />
       <Discount />
+      <Documentation />
     </div>
   );
 }
