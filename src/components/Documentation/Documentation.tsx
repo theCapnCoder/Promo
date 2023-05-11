@@ -49,7 +49,7 @@ export const Documentation = () => {
 
           <div className={styles.buttonWrapper}>
             <a
-              href="https://thecapncoder.github.io/gravity/"
+              href="https://github.com/theCapnCoder"
               rel="noreferrer"
               target="_blank"
             >
@@ -58,7 +58,7 @@ export const Documentation = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www.figma.com/file/HL5OHKgu4Od5UAWqx8CM7P/%5BPublished%5D%5BEN%5D-%C2%ABGravity%C2%BB?node-id=0-1&t=QHe2IcFSbPXw8vJb-0"
+              href="https://www.figma.com/file/MWMyOo8GVfMCK05c1MN8Ry/%5BPublished%5D%5BRU%5D-Promo-section?type=design&node-id=0-1&t=qN7ww9iRZPtAIPKF-0"
             >
               <button>Figma</button>
             </a>
