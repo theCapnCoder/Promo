@@ -1,28 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.11f070ad.css",
-    "main.js": "/static/js/main.98861dae.js",
+    "main.css": "/static/css/main.a405cc86.css",
+    "main.js": "/static/js/main.5ae2e04b.js",
     "static/media/main_card_2.png": "/static/media/main_card_2.3f5a336379a282080c34.png",
-    "static/media/bonus_card_3.png": "/static/media/bonus_card_3.7a215f50135d729efcac.png",
-    "static/media/discount.png": "/static/media/discount.5729c902f0542686b0c4.png",
-    "static/media/bonus_card_4.png": "/static/media/bonus_card_4.f6952d15d21454b45a24.png",
-    "static/media/bonus_card_1.png": "/static/media/bonus_card_1.788bfddd59b430c759a3.png",
     "static/media/main_card_3.png": "/static/media/main_card_3.0a8a9f44170c7ec2e56a.png",
-    "static/media/bonus_card_2.png": "/static/media/bonus_card_2.fb9a4cb4bc88c1a16781.png",
-    "static/media/offer_2.png": "/static/media/offer_2.f2c4a410ba755b0fd7dc.png",
-    "static/media/offer_1.png": "/static/media/offer_1.c6a65e1eaff335e25068.png",
     "static/media/main_card_1.png": "/static/media/main_card_1.333e057c4782a197a6c5.png",
-    "static/media/line_xl.svg": "/static/media/line_xl.057446c5958002181be8.svg",
-    "static/media/line_lg.svg": "/static/media/line_lg.b3c5878589553e96ebab.svg",
-    "static/media/line_md.svg": "/static/media/line_md.f6398291f879b73ae92b.svg",
-    "static/media/line_sm.svg": "/static/media/line_sm.d99a373163c768217085.svg",
     "index.html": "/index.html",
-    "static/media/under_line.svg": "/static/media/under_line.c024d9fe952952757c51.svg",
-    "main.11f070ad.css.map": "/static/css/main.11f070ad.css.map",
-    "main.98861dae.js.map": "/static/js/main.98861dae.js.map"
+    "main.a405cc86.css.map": "/static/css/main.a405cc86.css.map",
+    "main.5ae2e04b.js.map": "/static/js/main.5ae2e04b.js.map"
   },
   "entrypoints": [
-    "static/css/main.11f070ad.css",
-    "static/js/main.98861dae.js"
+    "static/css/main.a405cc86.css",
+    "static/js/main.5ae2e04b.js"
   ]
 }
