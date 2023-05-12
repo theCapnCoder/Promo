@@ -15,16 +15,16 @@ import md4 from "./img/md4.jpg";
 import md5 from "./img/md5.jpg";
 import md6 from "./img/md6.jpg";
 import md7 from "./img/md7.jpg";
-import lg1 from "./img/md1.jpg";
-import lg2 from "./img/md2.jpg";
-import lg3 from "./img/md3.jpg";
-import lg4 from "./img/md4.jpg";
-import lg5 from "./img/md5.jpg";
-import xl1 from "./img/md1.jpg";
-import xl2 from "./img/md2.jpg";
-import xl3 from "./img/md3.jpg";
-import xl4 from "./img/md4.jpg";
-import xl5 from "./img/md5.jpg";
+import lg1 from "./img/lg1.jpg";
+import lg2 from "./img/lg2.jpg";
+import lg3 from "./img/lg3.jpg";
+import lg4 from "./img/lg4.jpg";
+import lg5 from "./img/lg5.jpg";
+import xl1 from "./img/xl1.jpg";
+import xl2 from "./img/xl2.jpg";
+import xl3 from "./img/xl3.jpg";
+import xl4 from "./img/xl4.jpg";
+import xl5 from "./img/xl5.jpg";
 
 import styles from "./documentation.module.scss";
 
